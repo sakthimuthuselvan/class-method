@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //  class method
+
+
+        //type - 1
+
+  class Name{
+    constructor(){
+        this.name="sakthi"
+        this.age=22
+    }
+    addition(s){
+        this.name+=s
+    }
+    add2(a){
+        this.age+= a;
+    }
+
+  }
+
+  let nameClass=new Name();
+  nameClass.addition(" spark")
+  nameClass.add2(10)
+
+  console.log(nameClass)
+
+  let other=new Name()
+
+//   console.log(other)
+
+
+        //
+
+
+     //type - 2
+     
+  
+// class dad{
+//     constructor(){
+//         console.log("father")
+//     }
+//     mobile(){
+//         console.log("i-phone")
+//     }
+//     watch(){
+//         console.log("classic")
+//     }
+// }
+
+// class son extends dad{
+//     constructor(){
+//         console.log("son")
+//         super()
+//     }
+//     mobile(){
+//         console.log("redmi")
+//     }
+//     bike(){
+//         super.mobile()
+//         console.log("duke");
+//     }
+
+
+// }
+// let res =new son()
+
+// res.bike()
+// res.watch()     //if doesn't have in son object , it give dad of function 
+
+
+// //method -3
+
+// class type3{
+//     constructor(){
+//       this.money=500;
+//     }
+//    get fun1(){                      // "get" use call function like variable declaration 
+//         return this.money+=100;
+//     }
+//     set hlo(a){                     //"set" use we give parameter like asignment "=" 
+//         return this.money +=a
+//     }
+// }
+// let type=new type3()
+// type.hlo=33;                       //call "set"
+
+// type.fun1;                        // call "get"
+
+// console.log(type)
+    </script>
+</body>
+</html>
